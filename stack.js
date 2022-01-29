@@ -34,8 +34,3 @@ class Stack {
     return temp.value;
   }
 }
-
-let stack = new Stack();
-console.log(stack.push("hello"));
-console.log(stack.push("world"));
-console.log(stack);

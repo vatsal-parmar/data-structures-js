@@ -32,9 +32,3 @@ class Queue {
     return temp.value;
   }
 }
-
-let q = new Queue();
-q.enqueue("vatsal");
-console.log(q);
-q.dequeue();
-console.log(q);

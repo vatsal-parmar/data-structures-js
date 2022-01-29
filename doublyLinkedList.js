@@ -130,10 +130,3 @@ class DoublyLinkedList {
     return removedNode;
   }
 }
-
-let list = new DoublyLinkedList();
-console.log(list);
-list.push("hello");
-list.push("world");
-console.log(list.insert(1, "vatsal"));
-console.log(list);
